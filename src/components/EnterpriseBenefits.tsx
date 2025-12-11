@@ -8,14 +8,14 @@ const regions = [
     carModel: 'Mahindra 3 XO top model',
     exShowroom: 'INR 1439800',
     benefits: [
-      { label: 'Car Scrap Value (15 Yr old Sedan)', cero: 50000, unorganised: 33000, highlight: false },
+      { label: 'Car Scrap Value (15 Yr old Sedan)', cero: 30000, unorganised: 33000, highlight: false },
       { label: 'Road Tax Rebate', cero: 25916, unorganised: 0, highlight: false },
       { label: 'Registration Fees Waiver', cero: 6006, unorganised: 0, highlight: false },
       { label: 'Additional OEM/Dealer Discount', cero: 28796, unorganised: 0, highlight: false },
     ],
-    total: 90718,
+    total: 70718,
     totalUnorganised: 33000,
-    savings: 57718,
+    savings: 37718,
     notes: [
       '15% rebate on pending COD on 12% applicable road tax',
       '100% Registration fees waiver',
@@ -28,14 +28,14 @@ const regions = [
     carModel: 'Mahindra 3 XO top model',
     exShowroom: 'INR 1439800',
     benefits: [
-      { label: 'Car Scrap Value (15 Yr old Sedan)', cero: 50000, unorganised: 33000, highlight: false },
+      { label: 'Car Scrap Value (15 Yr old Sedan)', cero: 30000, unorganised: 33000, highlight: false },
       { label: 'Road Tax Rebate', cero: 35995, unorganised: 0, highlight: false },
       { label: 'Registration Fees Waiver', cero: 6006, unorganised: 0, highlight: false },
       { label: 'Additional OEM/Dealer Discount', cero: 28796, unorganised: 0, highlight: false },
     ],
-    total: 100797,
+    total: 80797,
     totalUnorganised: 33000,
-    savings: 67797,
+    savings: 47797,
     notes: [
       '25% rebate on pending COD on 10% applicable road tax',
       '100% Registration fees waiver',
@@ -65,10 +65,10 @@ export default function EnterpriseBenefits() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-full mb-4">
             <TrendingUp className="w-4 h-4 text-emerald-600" />
-            <span className="text-sm font-medium text-emerald-700">CERO Benefits</span>
+            <span className="text-sm font-medium text-emerald-700">CERO Commercial Benefits</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Maximum Value for Your Fleet
+            Maximum Value For Your Old Vehicle
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             See how much more you save with CERO compared to unorganized scrapping agencies, plus additional benefits for your next vehicle purchase.
@@ -169,7 +169,7 @@ export default function EnterpriseBenefits() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-6">Ready to unlock maximum value for your fleet?</p>
+          <p className="text-gray-600 mb-6">Ready To Unlock Maximum Value of Your Old Vehicle</p>
           <button className="group bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-2">
             Get Your Personalized Quote
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
