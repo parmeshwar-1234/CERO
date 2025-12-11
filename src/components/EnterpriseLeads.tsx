@@ -52,7 +52,7 @@ export default function EnterpriseLeads() {
           <div className="flex flex-col lg:sticky lg:top-20">
             <div className="bg-gradient-to-br from-white/10 via-white/5 to-white/5 backdrop-blur-xl rounded-2xl p-4 sm:p-8 border border-white/20 shadow-2xl">
               <img
-                src="/public/fleet.png"
+                src="/fleet.png"
                 alt="Fleet management"
                 className="rounded-xl shadow-2xl mb-8 w-full object-cover aspect-video"
               />
