@@ -13,9 +13,9 @@ const regions = [
       { label: 'Registration Fees Waiver', cero: 6006, unorganised: 0, highlight: false },
       { label: 'Additional OEM/Dealer Discount', cero: 28796, unorganised: 0, highlight: false },
     ],
-    total: 70718,
+    total: 90718,
     totalUnorganised: 33000,
-    savings: 37718,
+    savings: 57718,
     notes: [
       '15% rebate on pending COD on 12% applicable road tax',
       '100% Registration fees waiver',
@@ -33,9 +33,9 @@ const regions = [
       { label: 'Registration Fees Waiver', cero: 6006, unorganised: 0, highlight: false },
       { label: 'Additional OEM/Dealer Discount', cero: 28796, unorganised: 0, highlight: false },
     ],
-    total: 80797,
+    total: 100797,
     totalUnorganised: 33000,
-    savings: 47797,
+    savings: 67797,
     notes: [
       '25% rebate on pending COD on 10% applicable road tax',
       '100% Registration fees waiver',

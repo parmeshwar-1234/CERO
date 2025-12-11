@@ -50,9 +50,9 @@ export default function EnterpriseLeads() {
           </div>
 
           <div className="flex flex-col lg:sticky lg:top-20">
-            <div className="bg-gradient-to-br from-white/10 via-white/5 to-white/5 backdrop-blur-xl rounded-2xl p-8 border border-white/20 shadow-2xl">
+            <div className="bg-gradient-to-br from-white/10 via-white/5 to-white/5 backdrop-blur-xl rounded-2xl p-4 sm:p-8 border border-white/20 shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1311540/pexels-photo-1311540.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/public/fleet.png"
                 alt="Fleet management"
                 className="rounded-xl shadow-2xl mb-8 w-full object-cover aspect-video"
               />
@@ -64,9 +64,9 @@ export default function EnterpriseLeads() {
                   {metrics.map((metric, index) => (
                     <div
                       key={index}
-                      className="group bg-gradient-to-br from-emerald-300/10 to-teal-300/10 backdrop-blur-sm rounded-xl p-5 border border-emerald-300/20 hover:border-emerald-300/40 transition-all text-center"
+                      className="group bg-gradient-to-br from-emerald-300/10 to-teal-300/10 backdrop-blur-sm rounded-xl p-3 sm:p-5 border border-emerald-300/20 hover:border-emerald-300/40 transition-all text-center"
                     >
-                      <div className="text-4xl font-bold text-white mb-2 leading-none">
+                      <div className="text-2xl sm:text-4xl font-bold text-white mb-2 leading-none">
                         {metric.value}
                       </div>
                       <div className="text-sm text-emerald-200 font-medium">
